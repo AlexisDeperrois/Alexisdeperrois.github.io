@@ -4,7 +4,7 @@ html{
     background-color: #e4e4e4;
     font-size: 1vw;
 
-    font-family: 'Alegreya', serif;
+    font-family:'acme', sans-serif;
 }
 
 
@@ -15,11 +15,6 @@ main{
 
     display: flex;   
     align-items: stretch; 
-}
-
-h2{
-    font-family: 'Acme', sans-serif;
-
 }
 
     .gauche{
@@ -35,7 +30,7 @@ h2{
             margin-right: auto;
             margin-left: auto;
             height: 9rem;
-            clip-path: circle(50%);                
+            clip-path: circle(50%);
         }
         
         .gauche article{
@@ -80,8 +75,8 @@ h2{
         
         .droite>*{
             margin-bottom: 2rem;
-         }
-
+            font-family: 'Alegreya', serif;
+        }
         .droite h1{
             color:#05948D;
             font-size: 3rem;
@@ -90,27 +85,25 @@ h2{
             margin-bottom: 5rem;
 
             font-weight: normal;
-            font-family: 'Abril Fatface', display;     
-            
-            
+            font-family: 'Abril Fatface', display;
+        
         }
 
         .droite h2{
             color: #05948D;
             font-size: 1.4rem;
             text-decoration: underline;
-            margin-bottom: 0.5rem;
-            
+            font-family: 'Abril Fatface', display;
         }
 
        .droite article {
         display: flex;
         gap: 1rem;
 
-        padding: 0.5rem 1rem;
+        padding: 1rem;
         background-color: rgba(243, 243, 243, 0.959);
         border-radius: 10px;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
                }
         
         .date{            
